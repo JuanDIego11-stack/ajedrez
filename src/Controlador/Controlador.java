@@ -5,10 +5,12 @@ import Modelo.Movimientos;
 import Vista.MateHaciaBlancas;
 import Vista.VentanaEleccionFicha;
 import Vista.VistaTablero;
+import Vista.menuPrincipal;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import sun.java2d.Disposer;
 
 public class Controlador implements ActionListener {
     
@@ -28,15 +30,19 @@ public class Controlador implements ActionListener {
     public static ImageIcon imagenElegida;
     Movimientos movimientos;
     Bot bot = new Bot();
-
+    
+ 
     public Controlador() {
+        
         iniciarTablero();
         VistaTablero vista = new VistaTablero();
         vista.setVisible(true);
         añadirActionEvents();
         movimientos = new Movimientos();
+        
     }
-
+ 
+ 
     private void iniciarTablero() {
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
@@ -542,5 +548,8 @@ public class Controlador implements ActionListener {
         }
         return false;
     }
+
+    
+    
 
 }

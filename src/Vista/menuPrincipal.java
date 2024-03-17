@@ -1,8 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package Vista;
+
+import Controlador.Controlador;
+
+
 
 
 public class menuPrincipal extends javax.swing.JFrame {
@@ -11,7 +12,9 @@ public class menuPrincipal extends javax.swing.JFrame {
     public menuPrincipal() {
         initComponents();
         this.setLocationRelativeTo(null);
-        this.setTitle("Menu Principalñ");
+        this.setTitle("Menu Principal");
+        this.setVisible(true);
+        
     }
 
     /**
@@ -88,16 +91,21 @@ public class menuPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void botonContraBOtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonContraBOtActionPerformed
-       this.setVisible(false);
-       VistaTablero tablero = new VistaTablero();
-       tablero.setVisible(true);
+
+       this.setVisible(true);
+       //VistaTablero tablero = new VistaTablero();
+       //tablero.setVisible(true);
+       Controlador controlador = new Controlador();
        this.dispose();
+       
     }//GEN-LAST:event_botonContraBOtActionPerformed
 
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
+        
+         
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -125,6 +133,7 @@ public class menuPrincipal extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new menuPrincipal().setVisible(true);
+                
             }
         });
     }

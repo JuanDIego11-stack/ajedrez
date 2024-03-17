@@ -15,9 +15,12 @@ public class VistaTablero extends javax.swing.JFrame {
      */
     public VistaTablero() {
         initComponents();
+       
+
         this.setLocationRelativeTo(null);
-        this.setTitle("Talbero Vs CPU");
+        this.setTitle("Tablero Vs CPU");
         this.dispose();
+        
     }
 
     /**
@@ -109,96 +112,112 @@ public class VistaTablero extends javax.swing.JFrame {
         c00.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/TorreNegra.png"))); // NOI18N
         c00.setToolTipText("");
         c00.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c00.setMinimumSize(null);
         jPanel1.add(c00);
 
         c01.setBackground(new java.awt.Color(119, 149, 86));
         c01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/CaballoNegro.png"))); // NOI18N
         c01.setToolTipText("");
         c01.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c01.setMinimumSize(null);
         jPanel1.add(c01);
 
         c02.setBackground(new java.awt.Color(235, 236, 208));
         c02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/AlfilNegro.png"))); // NOI18N
         c02.setToolTipText("");
         c02.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c02.setMinimumSize(null);
         jPanel1.add(c02);
 
         c03.setBackground(new java.awt.Color(119, 149, 86));
         c03.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ReinaNegra.png"))); // NOI18N
         c03.setToolTipText("");
         c03.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c03.setMinimumSize(null);
         jPanel1.add(c03);
 
         c04.setBackground(new java.awt.Color(235, 236, 208));
         c04.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ReyNegro.png"))); // NOI18N
         c04.setToolTipText("");
         c04.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c04.setMinimumSize(null);
         jPanel1.add(c04);
 
         c05.setBackground(new java.awt.Color(119, 149, 86));
         c05.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/AlfilNegro.png"))); // NOI18N
         c05.setToolTipText("");
         c05.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c05.setMinimumSize(null);
         jPanel1.add(c05);
 
         c06.setBackground(new java.awt.Color(235, 236, 208));
         c06.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/CaballoNegro.png"))); // NOI18N
         c06.setToolTipText("");
         c06.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c06.setMinimumSize(null);
         jPanel1.add(c06);
 
         c07.setBackground(new java.awt.Color(119, 149, 86));
         c07.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/TorreNegra.png"))); // NOI18N
         c07.setToolTipText("");
         c07.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c07.setMinimumSize(null);
         jPanel1.add(c07);
 
         c10.setBackground(new java.awt.Color(119, 149, 86));
         c10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
         c10.setToolTipText("");
         c10.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c10.setMinimumSize(null);
         jPanel1.add(c10);
 
         c11.setBackground(new java.awt.Color(235, 236, 208));
         c11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
         c11.setToolTipText("");
         c11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c11.setMinimumSize(null);
         jPanel1.add(c11);
 
         c12.setBackground(new java.awt.Color(119, 149, 86));
         c12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
         c12.setToolTipText("");
         c12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c12.setMinimumSize(null);
         jPanel1.add(c12);
 
         c13.setBackground(new java.awt.Color(235, 236, 208));
         c13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
         c13.setToolTipText("");
         c13.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c13.setMinimumSize(null);
         jPanel1.add(c13);
 
         c14.setBackground(new java.awt.Color(119, 149, 86));
         c14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
         c14.setToolTipText("");
         c14.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c14.setMinimumSize(null);
         jPanel1.add(c14);
 
         c15.setBackground(new java.awt.Color(235, 236, 208));
         c15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
         c15.setToolTipText("");
         c15.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c15.setMinimumSize(null);
         jPanel1.add(c15);
 
         c16.setBackground(new java.awt.Color(119, 149, 86));
         c16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
         c16.setToolTipText("");
         c16.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c16.setMinimumSize(null);
         jPanel1.add(c16);
 
         c17.setBackground(new java.awt.Color(235, 236, 208));
         c17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
         c17.setToolTipText("");
         c17.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c17.setMinimumSize(null);
         jPanel1.add(c17);
 
         c20.setBackground(new java.awt.Color(235, 236, 208));
@@ -365,96 +384,114 @@ public class VistaTablero extends javax.swing.JFrame {
         c60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
         c60.setToolTipText("");
         c60.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c60.setMinimumSize(null);
         jPanel1.add(c60);
 
         c61.setBackground(new java.awt.Color(119, 149, 86));
         c61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
         c61.setToolTipText("");
         c61.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c61.setMinimumSize(null);
         jPanel1.add(c61);
 
         c62.setBackground(new java.awt.Color(235, 236, 208));
         c62.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
         c62.setToolTipText("");
         c62.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c62.setMinimumSize(null);
         jPanel1.add(c62);
 
         c63.setBackground(new java.awt.Color(119, 149, 86));
         c63.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
         c63.setToolTipText("");
         c63.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c63.setMinimumSize(null);
         jPanel1.add(c63);
 
         c64.setBackground(new java.awt.Color(235, 236, 208));
         c64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
         c64.setToolTipText("");
         c64.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c64.setMinimumSize(null);
         jPanel1.add(c64);
 
         c65.setBackground(new java.awt.Color(119, 149, 86));
         c65.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
         c65.setToolTipText("");
         c65.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c65.setMinimumSize(null);
         jPanel1.add(c65);
 
         c66.setBackground(new java.awt.Color(235, 236, 208));
         c66.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
         c66.setToolTipText("");
         c66.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c66.setMinimumSize(null);
         jPanel1.add(c66);
 
         c67.setBackground(new java.awt.Color(119, 149, 86));
         c67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
         c67.setToolTipText("");
         c67.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c67.setMaximumSize(new java.awt.Dimension(90, 87));
+        c67.setMinimumSize(null);
+        c67.setPreferredSize(new java.awt.Dimension(90, 87));
         jPanel1.add(c67);
 
         c70.setBackground(new java.awt.Color(119, 149, 86));
         c70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Torre.png"))); // NOI18N
         c70.setToolTipText("");
         c70.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c70.setMinimumSize(null);
         jPanel1.add(c70);
 
         c71.setBackground(new java.awt.Color(235, 236, 208));
         c71.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Caballo.png"))); // NOI18N
         c71.setToolTipText("");
         c71.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c71.setMinimumSize(null);
         jPanel1.add(c71);
 
         c72.setBackground(new java.awt.Color(119, 149, 86));
         c72.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Alfil.png"))); // NOI18N
         c72.setToolTipText("");
         c72.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c72.setMinimumSize(null);
         jPanel1.add(c72);
 
         c73.setBackground(new java.awt.Color(235, 236, 208));
         c73.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Reina.png"))); // NOI18N
         c73.setToolTipText("");
         c73.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c73.setMinimumSize(null);
         jPanel1.add(c73);
 
         c74.setBackground(new java.awt.Color(119, 149, 86));
         c74.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Rey.png"))); // NOI18N
         c74.setToolTipText("");
         c74.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c74.setMinimumSize(null);
         jPanel1.add(c74);
 
         c75.setBackground(new java.awt.Color(235, 236, 208));
         c75.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Alfil.png"))); // NOI18N
         c75.setToolTipText("");
         c75.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c75.setMinimumSize(null);
         jPanel1.add(c75);
 
         c76.setBackground(new java.awt.Color(119, 149, 86));
         c76.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Caballo.png"))); // NOI18N
         c76.setToolTipText("");
         c76.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c76.setMinimumSize(null);
         jPanel1.add(c76);
 
         c77.setBackground(new java.awt.Color(235, 236, 208));
         c77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Torre.png"))); // NOI18N
         c77.setToolTipText("");
         c77.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        c77.setMinimumSize(null);
         jPanel1.add(c77);
 
         jMenu1.setText("Restart");
@@ -524,9 +561,11 @@ public class VistaTablero extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
+
         this.setVisible(false);
         menuPrincipal menu = new  menuPrincipal();
         menu.setVisible(true);
+        
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     /**
@@ -637,4 +676,6 @@ public class VistaTablero extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
+
+   
 }
