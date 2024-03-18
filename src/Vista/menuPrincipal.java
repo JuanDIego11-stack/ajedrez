@@ -2,6 +2,7 @@
 package Vista;
 
 import Controlador.Controlador;
+import Modelo.onevone;
 
 
 
@@ -29,6 +30,7 @@ public class menuPrincipal extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         botonContraBOt = new javax.swing.JButton();
+        BotonIniciar1v1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -48,6 +50,18 @@ public class menuPrincipal extends javax.swing.JFrame {
             }
         });
 
+        BotonIniciar1v1.setBackground(new java.awt.Color(115, 149, 82));
+        BotonIniciar1v1.setForeground(new java.awt.Color(255, 255, 255));
+        BotonIniciar1v1.setText("Iniciar Partida 1vs1");
+        BotonIniciar1v1.setMaximumSize(new java.awt.Dimension(151, 24));
+        BotonIniciar1v1.setMinimumSize(new java.awt.Dimension(151, 24));
+        BotonIniciar1v1.setPreferredSize(new java.awt.Dimension(151, 24));
+        BotonIniciar1v1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotonIniciar1v1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -55,21 +69,25 @@ public class menuPrincipal extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(261, 261, 261)
-                        .addComponent(botonContraBOt, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(434, 434, 434)
-                        .addComponent(jLabel1)))
-                .addContainerGap(437, Short.MAX_VALUE))
+                        .addComponent(jLabel1))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(225, 225, 225)
+                        .addComponent(botonContraBOt, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(150, 150, 150)
+                        .addComponent(BotonIniciar1v1, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(283, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(60, 60, 60)
                 .addComponent(jLabel1)
-                .addGap(87, 87, 87)
-                .addComponent(botonContraBOt, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(325, Short.MAX_VALUE))
+                .addGap(76, 76, 76)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(botonContraBOt, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BotonIniciar1v1, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(327, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -99,6 +117,12 @@ public class menuPrincipal extends javax.swing.JFrame {
        this.dispose();
        
     }//GEN-LAST:event_botonContraBOtActionPerformed
+
+    private void BotonIniciar1v1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonIniciar1v1ActionPerformed
+        this.setVisible(true);
+        onevone one = new onevone();
+        this.dispose();
+    }//GEN-LAST:event_BotonIniciar1v1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -139,6 +163,7 @@ public class menuPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton BotonIniciar1v1;
     private javax.swing.JButton botonContraBOt;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
